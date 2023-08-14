@@ -10,7 +10,7 @@ A custom neural network implementation that evaluates different architectures, u
 - Neural Network Architecture and Layer Classes
 - Model Evaluation and Visualization
 - Architecture Evaluation
-
+- Hyperparameter Tuning
 
 ## Functionality
 - Custom Neural Network Implementation
