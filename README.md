@@ -3,13 +3,18 @@ A custom neural network implementation that evaluates different architectures, u
 
 ## Techniques Used
 - Forward Propagation
-- Backward Propagation
-- Custom loss functions
+- Backward Propagation and Gradient Descent
+- Custom loss functions and Error Calculation
 - Early Stopping
+- Custom Neural Network Class (Sequential)
+- Neural Network Architecture and Layer Classes
+- Model Evaluation and Visualization
+- Architecture Evaluation
+
 
 ## Functionality
 - Custom Neural Network Implementation
-  - The code defines a hierarchy of classes which represent different layers (such as LinearLayer, Sigmoid, Tanh, Softmax) and implement methods for forward and backward propagation  to build a custom neural network
+  - The code defines a hierarchy of classes that represent different layers (such as LinearLayer, Sigmoid, Tanh, Softmax) and implement methods for forward and backward propagation  to build a custom neural network
   - The Sequential class is used to build a sequential neural network by adding layers and setting loss functions
   - Custom loss functions (e.g. CrossEntropyLoss) are implemented as subclasses of the Layer class.
 - Using the Custom Neural Network
